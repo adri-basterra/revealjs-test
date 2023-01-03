@@ -1,28 +1,112 @@
-<p align="center">
-  <a href="https://revealjs.com">
-  <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text.svg" alt="reveal.js" width="450">
+<a id="readme-top"></a>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/adri-basterra/revealjs-test">
+    <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-white-text.svg" alt="Logo" height="100">
   </a>
-  <br><br>
-  <a href="https://github.com/hakimel/reveal.js/actions"><img src="https://github.com/hakimel/reveal.js/workflows/tests/badge.svg"></a>
-  <a href="https://slides.com/"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
-</p>
 
-reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create fully featured and beautiful presentations for free. [Check out the live demo](https://revealjs.com/).
+<h3 align="center"><strong>RevealJS Test</strong></h3>
 
-The framework comes with a broad range of features including [nested slides](https://revealjs.com/vertical-slides/), [Markdown support](https://revealjs.com/markdown/), [Auto-Animate](https://revealjs.com/auto-animate/), [PDF export](https://revealjs.com/pdf-export/), [speaker notes](https://revealjs.com/speaker-view/), [LaTeX support](https://revealjs.com/math/), [syntax highlighted code](https://revealjs.com/code/) and much more.
+  <p align="center">
+    Testing RevealJS library with React
+    <br />
+    <a href="https://github.com/adri-basterra/revealjs-test"><strong>Explore repository »</strong></a>
+    <br />
+    <br />
+  </p>
+</div>
 
-<h1>
-  <a href="https://revealjs.com/installation" style="font-size: 3em;">Get Started</a>
-</h1>
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
 
-## Documentation
-The full reveal.js documentation is available at [revealjs.com](https://revealjs.com).
+<br>
 
-## Online Editor
-Want to create your presentation using a visual editor? Try the official reveal.js presentation platform for free at [Slides.com](https://slides.com). It's made by the same people behind reveal.js.
+<!-- ABOUT THE PROJECT -->
+<div id="about-the-project"></div>
 
-## License
+## 📌 About The Project
 
-MIT licensed
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Copyright (C) 2011-2021 Hakim El Hattab, https://hakim.se
+This repository was created to test the capabilities of RevealJS (a library for web presentations) combined with React.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+<div align="center">
+
+[![React][react]][react-url]
+[![Reveal][reveal]][reveal-url]
+
+</div>
+
+- **React** is used as the main framework of the application.
+- **Reveal** is used as an external application for creating presentations in web.
+
+<br>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+<div id="getting-started"></div>
+
+## 🌱 Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+Some utils need to be installed in order to use the software. This is how to install them.
+
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/adri-basterra/revealjs-test.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Start the project
+   ```sh
+   npm start
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[product-screenshot]: images/screenshot.png
+[react]: https://img.shields.io/badge/React-00C7B7?style=for-the-badge&logo=react&logoColor=white
+[react-url]: https://es.reactjs.org/
+[reveal]: https://img.shields.io/badge/reveal.js-F2E142?style=for-the-badge&logo=reveal.js&logoColor=000
+[reveal-url]: https://revealjs.com/
